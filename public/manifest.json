@@ -1,0 +1,22 @@
+{
+    "short_name": "Nimplex",
+    "name": "Nimplex: Programmer from Poland.",
+    "description": "My personal website.",
+    "start_url": "/",
+    "background_color": "#0f0f0f",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#0f0f0f",
+    "icons": [
+        {
+            "src": "/assets/logobg-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/assets/logobg-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
