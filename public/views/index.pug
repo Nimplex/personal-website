@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Nimplex
+        link(rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css")
+        link(rel="stylesheet" href="https://static.fontawesome.com/css/fontawesome-app.css")
+        link(rel="stylesheet" href="/css/style.css")
+        link(rel="preconnect" href="https://fonts.gstatic.com")
+        link(href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet")
+    body
+        h1#title Nimplex
+
+
+        div#projects
+            h1 Projects
+            for project of projects
+                div.project
+                    div.info
+                        div.title
+                            p.title #{project.title}
+                            for link of project.links
+                                a.link(href=link.url)
+                                    i(class=link.name)
+                        p.description #{project.description}
+                    if projects.length - 1 !== projects.indexOf(project)
+                        div.border

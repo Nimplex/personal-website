@@ -1,0 +1,48 @@
+[
+    {
+        "title": "99i Startpage",
+        "description": "Simple chrome startpage. Available on Github pages and as chrome extension.",
+        "links": [
+            { "name": "far fa-browser", "url": "https://nimplex.github.io/99i-Startpage/"},
+            { "name": "fab fa-github", "url": "https://github.com/Nimplex/99i-Startpage"}
+        ]
+    },
+    {
+        "title": "Minimalistic Startpage",
+        "description": "Minimalistic startpage for chrome. Available on Github pages and as chrome extension.",
+        "links": [
+            { "name": "far fa-browser", "url": "https://nimplex.github.io/Minimal-StartPage/"},
+            { "name": "fab fa-github", "url": "https://github.com/Nimplex/Minimal-StartPage"}
+        ]
+    },
+    {
+        "title": "Personal website",
+        "description": "My own personal website.",
+        "links": [
+            { "name": "far fa-browser", "url": "https://nimplex.xyz"},
+            { "name": "fab fa-github", "url": "https://github.com/Nimplex/personal-website"}
+        ]
+    },
+    {
+        "title": "NJHX",
+        "description": "Easy to use url shortener written in typescript.",
+        "links": [
+            { "name": "far fa-browser", "url": "https://njhx.cf"},
+            { "name": "fab fa-github", "url": "https://github.com/ctrl-team/NJHX"}
+        ]
+    },
+    {
+        "title": "Snake",
+        "description": "Simple snake game written in badosz0's MilkScript.",
+        "links": [
+            { "name": "fab fa-github", "url": "https://github.com/Nimplex/SnakeInMilkScript"}
+        ]
+    },
+    {
+        "title": "Strawberry Catcher",
+        "description": "Strawberry catcher remake written in badosz0's MilkScript.",
+        "links": [
+            { "name": "fab fa-github", "url": "https://github.com/Nimplex/Strawberry-catcher-MilkScript"}
+        ]
+    }
+]

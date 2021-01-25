@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "1.0.0",
   "description": "Personal website",
-  "main": "build/server.js",
+  "main": "dist/server.js",
   "scripts": {
     "build": "gulp"
   },
@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/Nimplex/personal-website#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.11",
