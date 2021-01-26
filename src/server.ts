@@ -2,6 +2,7 @@ import express from 'express'
 import { join } from 'path'
 
 const projects = require('../projects.json')
+const contacts = require('../contacts.json')
 const app = express()
 const port = 8091
 
@@ -9,7 +10,7 @@ app.use(express.static(join(__dirname, '..', 'public')))
 app.set('views', join(__dirname, '..', 'public', 'views'))
 app.set('view engine', 'pug')
 
-app.get('/', (req, res) => res.render('index', { projects: projects }))
+app.get('/', (req, res) => res.render('index', { projects: projects, contacts: contacts }))
 
 app.get('/steam', (req, res) => res.redirect('https://steamcommunity.com/id/Nimplexy'))
 app.get('/youtube', (req, res) => res.redirect('https://youtube.com/Nimplex'))

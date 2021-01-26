@@ -1,0 +1,26 @@
+[
+    {
+        "url": "/youtube",
+        "name": "YouTube"
+    },
+    {
+        "url": "/twitter",
+        "name": "Twitter"
+    },
+    {
+        "url": "/reddit",
+        "name": "Reddit"
+    },
+    {
+        "url": "/discord",
+        "name": "Discord"
+    },
+    {
+        "url": "/steam",
+        "name": "Steam"
+    },
+    {
+        "url": "/github",
+        "name": "GitHub"
+    }
+]
