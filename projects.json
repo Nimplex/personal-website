@@ -16,6 +16,14 @@
         ]
     },
     {
+        "title": "Nmbin",
+        "description": "Place for your code.",
+        "links": [
+            { "name": "far fa-browser", "url": "https://bin.nimplex.xyz"},
+            { "name": "fab fa-github", "url": "https://github.com/Nimplex/nmbin"}
+        ]
+    },
+    {
         "title": "Personal website",
         "description": "My own personal website.",
         "links": [
