@@ -4,31 +4,29 @@
 }
 
 .preload * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-  transition: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
 }
 
 body {
     background: #0f0f0f;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 
     #title {
         margin: 40px 0;
         text-align: center;
         font-size: 35px;
     }
-    
     #container {
-        justify-content: space-between;
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
         #projects {
             .project {
                 min-width: 200px;
@@ -46,9 +44,9 @@ body {
                         font-size: 18px;
                         margin-bottom: 5px;
                         flex-direction: row;
+                        display: inline-flex;
 
                         p {
-                            display: inline;
                             padding-right: 5px;
                         }
                         a {
@@ -57,11 +55,11 @@ body {
                             
                             i {
                                 transition: color 300ms;
-                                color: #95b8c0;
+                                color: #c9d1d9;
 
                                 &:hover {
                                     transition: color 300ms;
-                                    color: #7b989e;
+                                    color: #6e7681;
                                 }
                             }
 
@@ -75,28 +73,22 @@ body {
             }
         }
         #contact {
-            .contact {
-                min-width: 450px;
+            min-width: 450px;
+            a {
+                color: white;
 
-                .info {
-                    margin: 15px 0;
+                i {
+                    margin-bottom: 15px;
+                    transition: color 300ms;
 
-                    .link {
-                        color: white;
-
-                        i {
-                            transition: color 300ms;
-
-                            p {
-                                padding: 0 5px;
-                                display: inline;
-                                font-family: 'Montserrat', sans-serif;
-                            }
-                            &:hover {
-                                transition: color 300ms;
-                                color: #7b989e;
-                            }
-                        }
+                    p {
+                        padding: 0 5px;
+                        display: inline;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    &:hover {
+                        transition: color 300ms;
+                        color: #6e7681;
                     }
                 }
             }

@@ -28,10 +28,9 @@ html(lang="en")
                             div.border
             div#contact
                 h1 Contact
-                div.contact
-                    for contact of contacts
-                        div.info
-                            a.link(href=contact.url)
-                                i(class="fab fa-" + contact.name.toLowerCase())
-                                    p #{contact.name}
+                for contact of contacts
+                    a(href=contact.url)
+                        i(class="fab fa-" + contact.name.toLowerCase())
+                            p #{contact.name}
+                    br
         script(src="/scripts/preload.js")
