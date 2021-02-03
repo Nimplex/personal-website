@@ -11,7 +11,8 @@
     "start": "nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/main"
+    "start:prod": "node dist/main",
+    "build:scss": "sass ./public/scss/:./public/css"
   },
   "dependencies": {
     "@nestjs/common": "^7.5.1",
@@ -29,6 +30,7 @@
     "@types/express": "^4.17.8",
     "@types/node": "^14.14.22",
     "prettier": "^2.1.2",
+    "sass": "^1.32.6",
     "ts-loader": "^8.0.8",
     "ts-node": "^9.0.0",
     "tsc": "^1.20150623.0",
