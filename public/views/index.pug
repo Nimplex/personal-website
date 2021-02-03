@@ -5,4 +5,16 @@ html(lang="en")
         link(rel="stylesheet" href="/css/style.css")
 
     body(class="preload")
-        include includes/navbar.pug
+        #container
+            include includes/navbar.pug
+            #projects
+                for project of projects
+                    .project
+                        h1#title #{project.title}
+                        #links
+                            for link of project.links
+                                a(href=link.url).link #{link.name}
+                                if project.links.indexOf(link) !== project.links.length - 1
+                                    p |
+                        p#description #{project.description}
+        script(src="/js/preload.js")

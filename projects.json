@@ -1,0 +1,56 @@
+[
+    {
+        "title": "99i Startpage",
+        "description": "Simple chrome startpage. Available on Github pages and as chrome extension.",
+        "links": [
+            { "name": "Website", "url": "https://nimplex.github.io/99i-Startpage/"},
+            { "name": "Github", "url": "https://github.com/Nimplex/99i-Startpage"}
+        ]
+    },
+    {
+        "title": "Minimalistic Startpage",
+        "description": "Minimalistic startpage for chrome. Available on Github pages and as chrome extension.",
+        "links": [
+            { "name": "Website", "url": "https://nimplex.github.io/Minimal-StartPage/"},
+            { "name": "Github", "url": "https://github.com/Nimplex/Minimal-StartPage"}
+        ]
+    },
+    {
+        "title": "Nmbin",
+        "description": "Place for your code.",
+        "links": [
+            { "name": "Website", "url": "https://bin.nimplex.xyz"},
+            { "name": "Github", "url": "https://github.com/Nimplex/nmbin"}
+        ]
+    },
+    {
+        "title": "Personal website",
+        "description": "My own personal website.",
+        "links": [
+            { "name": "Website", "url": "https://nimplex.xyz"},
+            { "name": "Github", "url": "https://github.com/Nimplex/personal-website"}
+        ]
+    },
+    {
+        "title": "NJHX",
+        "description": "Easy to use url shortener written in typescript.",
+        "links": [
+            { "name": "Website", "url": "https://njhx.cf"},
+            { "name": "Github", "url": "https://github.com/ctrl-team/NJHX"}
+        ]
+    },
+    {
+        "title": "Snake",
+        "description": "Snake game written in MilkScript.",
+        "links": [
+            { "name": "Github", "url": "https://github.com/Nimplex/SnakeInMilkScript"}
+        ]
+    },
+    {
+        "title": "Strawberry Catcher",
+        "description": "Strawberry catcher remake written in MilkScript.",
+        "links": [
+            { "name": "Github", "url": "https://github.com/Nimplex/Strawberry-catcher-MilkScript"}
+        ]
+    }
+]

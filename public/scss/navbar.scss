@@ -1,11 +1,12 @@
 #navbar {
     margin: 5px 20px;
 
-    #container {
+    #navbar-container {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: row;
+        width: 60vw;
 
         #card {
             height: 100px;
@@ -18,7 +19,9 @@
                 font-size: 17px;
             }
         }
-        #links {
+        #navbar-links {
+            padding-left: 40px;
+
             .link {
                 margin: 0px 9px;
                 color: #a8a8a8;

@@ -1,0 +1,40 @@
+@import 'additional.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: #272727;
+    font-family: 'Montserrat', sans-serif;
+
+    #container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        #contacts {
+            width: 60vw;
+            
+            .contact {
+                margin: 15px 0;
+                
+                a {
+                    font-size: 15px;
+                    color: #a8a8a8;
+                    outline: none;
+                    text-decoration: none;
+                    transition: color .2s;
+
+                    &:hover {
+                        color: white;
+                        transition: color .2s;
+                    }
+                }
+            }
+        }
+    }
+}

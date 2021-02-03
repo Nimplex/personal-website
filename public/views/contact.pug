@@ -2,7 +2,13 @@
 html(lang="en")
     head
         include includes/head.pug
-        link(rel="stylesheet" href="/css/style.css")
+        link(rel="stylesheet" href="/css/contact.css")
 
     body(class="preload")
-        include includes/navbar.pug
+        #container
+            include includes/navbar.pug
+            #contacts
+                for contact of contacts
+                    p.contact
+                        a(href=contact.url) #{contact.name}
+        script(src="/js/preload.js")

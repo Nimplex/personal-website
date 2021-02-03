@@ -9,4 +9,49 @@
 body {
     background: #272727;
     font-family: 'Montserrat', sans-serif;
+    
+    #container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        #projects {
+            width: 60vw;
+            
+            .project {
+                min-width: 200px;
+                margin: 30px 0;
+    
+                #title {
+                    font-size: 20px;
+                    margin: 0;
+                }
+                #links {
+                    display: inline-flex;
+                    margin: 8px 0;
+    
+                    .link {
+                        margin: 0 10px;
+                        color: #a8a8a8;
+                        transition: color .2s;
+                        outline: none;
+
+                        &:hover {
+                            color: white;
+                            transition: color .2s;
+                        }
+    
+                        &:first-child {
+                            margin-left: 0;
+                        }
+                    }
+                }
+                #description {
+                    color: #e4e4e4;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
 }
