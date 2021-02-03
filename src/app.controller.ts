@@ -4,5 +4,13 @@ import { Controller, Get, Render } from '@nestjs/common'
 export class AppController {
     @Get()
     @Render('index')
-    public index() {}
+    public index() {
+        return { page: 'home' }
+    }
+
+    @Get('/contact')
+    @Render('contact')
+    public contact() {
+        return { page: 'contact' }
+    }
 }

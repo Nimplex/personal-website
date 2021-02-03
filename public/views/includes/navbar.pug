@@ -1,0 +1,12 @@
+#navbar 
+    #container
+        #card
+            h1#title Nimplex
+            p#description Full Stack programmer.
+        #links
+            - let home = 'active'
+            - let contact = 'active'
+            - if (page == 'home') contact = ''
+            - else home = ''
+            a(href="/" class=home).link Home
+            a(href="/contact" class=contact).link Contact

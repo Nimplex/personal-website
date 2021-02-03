@@ -1,0 +1,39 @@
+#navbar {
+    margin: 5px 20px;
+
+    #container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+
+        #card {
+            height: 100px;
+
+            #title {
+                font-size: 30px;
+                margin-bottom: 5px;
+            }
+            #description {
+                font-size: 17px;
+            }
+        }
+        #links {
+            .link {
+                margin: 0px 9px;
+                color: #a8a8a8;
+                text-decoration: none;
+                transition: color .2s;
+                outline: none;
+
+                &:hover {
+                    color: white;
+                    transition: color .2s;
+                }
+            }
+            .active {
+                color: #ffeb99;
+            }
+        }
+    }
+}
