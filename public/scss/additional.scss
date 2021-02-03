@@ -27,3 +27,10 @@
 ::-webkit-scrollbar-corner {
     background: transparent;
 }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/montserrat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
