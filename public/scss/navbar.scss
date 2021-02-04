@@ -2,7 +2,7 @@
     margin: 5px 20px;
 
     #navbar-container {
-        display: flex;
+        display: inline-flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: row;
@@ -13,6 +13,7 @@
             justify-content: center;
             flex-direction: column;
             height: 100px;
+            margin-right: 20px;
 
             #title {
                 font-size: 30px;
@@ -23,8 +24,6 @@
             }
         }
         #navbar-links {
-            padding: 40px 0;
-
             .link {
                 margin: 0px 9px;
                 color: #a8a8a8;
