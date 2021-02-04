@@ -15,7 +15,7 @@ body {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        
+
         #projects {
             width: 60vw;
             
@@ -36,6 +36,7 @@ body {
                         color: #a8a8a8;
                         transition: color .2s;
                         outline: none;
+                        text-decoration: none;
 
                         &:hover {
                             color: white;

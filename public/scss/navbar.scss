@@ -9,6 +9,9 @@
         width: 60vw;
 
         #card {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             height: 100px;
 
             #title {
@@ -20,7 +23,7 @@
             }
         }
         #navbar-links {
-            padding-left: 40px;
+            padding: 40px 0;
 
             .link {
                 margin: 0px 9px;

@@ -13,7 +13,9 @@ const bootstrap = async () => {
     app.set('views', path.join(__dirname, '..', 'public', 'views'))
     app.set('view engine', 'pug')
 
-    await app.listen(config.port)
+    await app.listen(config.port, () => 
+        console.log(`Server is listening to port ${config.port}`)
+    )
 }
 
 bootstrap()
