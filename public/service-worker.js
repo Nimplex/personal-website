@@ -1,5 +1,7 @@
 const filesToCache = [
     '/',
+    '/contact',
+    '/css/contact.css',
     '/manifest.json',
     '/css/style.css',
     '/css/navbar.css',
