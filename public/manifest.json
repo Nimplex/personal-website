@@ -2,7 +2,7 @@
     "short_name": "Nimplex",
     "name": "Nimplex: Programmer from Poland.",
     "description": "My personal website.",
-    "start_url": "/",
+    "start_url": "https://nimplex.xyz/",
     "background_color": "#0f0f0f",
     "display": "standalone",
     "scope": "/",
