@@ -6,7 +6,7 @@ ___
 ## Installation & running.
 1. Install all dependencies.
 ```
-yarn add
+yarn add package.json
 ```
 2. Build code.
 ```
