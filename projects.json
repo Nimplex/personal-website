@@ -40,6 +40,14 @@
         ]
     },
     {
+        "title": "LukeBot",
+        "description": "Simple Discord bot in TypeScript.",
+        "links": [
+            { "name": "Website", "url": "https://lukebot.xyz"},
+            { "name": "Github", "url": "https://github.com/Nimplex/Luke"}
+        ]
+    },
+    {
         "title": "Snake",
         "description": "Snake game written in MilkScript.",
         "links": [
@@ -51,13 +59,6 @@
         "description": "Strawberry catcher remake written in MilkScript.",
         "links": [
             { "name": "Github", "url": "https://github.com/Nimplex/Strawberry-catcher-MilkScript"}
-        ]
-    },
-        {
-        "title": "LukeBot",
-        "description": "Simple Discord bot in TypeScript.",
-        "links": [
-            { "name": "Github", "url": "https://github.com/Nimplex/Luke"}
         ]
     }
 ]
