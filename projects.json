@@ -60,5 +60,19 @@
         "links": [
             { "name": "Github", "url": "https://github.com/Nimplex/Strawberry-catcher-MilkScript"}
         ]
+    },
+    {
+        "title": "Space Invaders",
+        "description": "Space invaders game remake in JavaScript.",
+        "links": [
+            { "name": "Github", "url": "https://github.com/Nimplex/spaceinvadersJS"}
+        ]
+    },
+    {
+        "title": "Pong",
+        "description": "Pong game remake in JavaScript.",
+        "links": [
+            { "name": "Github", "url": "https://github.com/Nimplex/pongJS"}
+        ]
     }
 ]
