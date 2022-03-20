@@ -12,10 +12,6 @@
         "name": "Reddit"
     },
     {
-        "url": "/discord",
-        "name": "Discord"
-    },
-    {
         "url": "/steam",
         "name": "Steam"
     },
