@@ -1,5 +1,13 @@
 [
     {
+        "title": "4RDM",
+        "description": "Just another Polish FiveM server",
+        "links": [
+            { "name": "Website", "url": "https://4rdm.pl" },
+            { "name": "Github", "url": "https://github.com/4RDM" }
+        ]
+    },
+    {
         "title": "99i Startpage",
         "description": "Simple chrome startpage. Available on Github pages and as a chrome extension.",
         "links": [
@@ -19,7 +27,6 @@
         "title": "Nmbin",
         "description": "Place for your code.",
         "links": [
-            { "name": "Website", "url": "https://bin.nimplex.xyz"},
             { "name": "Github", "url": "https://github.com/Nimplex/nmbin"}
         ]
     },
@@ -35,7 +42,6 @@
         "title": "NJHX",
         "description": "Easy to use url shortener written in TypeScript.",
         "links": [
-            { "name": "Website", "url": "https://njhx.cf"},
             { "name": "Github", "url": "https://github.com/ctrl-team/NJHX"}
         ]
     },
@@ -43,7 +49,6 @@
         "title": "LukeBot",
         "description": "Simple Discord bot in TypeScript.",
         "links": [
-            { "name": "Website", "url": "https://lukebot.xyz"},
             { "name": "Github", "url": "https://github.com/Nimplex/Luke"}
         ]
     },
