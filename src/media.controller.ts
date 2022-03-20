@@ -21,8 +21,4 @@ export class MediaController {
     @Get('/github')
     @Redirect('https://github.com/Nimplex')
     public github() {}
-
-    @Get('/discord')
-    @Redirect('https://discord.gg/VFHgtc4')
-    public discord() {}
 }
